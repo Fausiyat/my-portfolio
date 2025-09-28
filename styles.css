@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body {
+  background: #ffffff;
+  color: #333333;
+}
+
+/* Dark Theme */
+body.dark {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+section {
+  margin: 40px 0;
+  /* border: 1px solid red; */
+}
+
+.container {
+  margin: 10px 30px;
+  margin-top: 70px;
+}
+
+nav,
+button#theme-toggle {
+  /* position: fixed;
+  top: 10px; */
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav img {
+  border-radius: 50%;
+}
+
+button#theme-toggle {
+  right: 10px;
+  padding: 10px;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+  /* width: 80%; */
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.user-container {
+  padding: 5px;
+  padding-bottom: 1px;
+  /* background-color: rgba(0, 0, 0, 0.11); */
+  border-radius: 50%;
+  text-align: center;
+}
+.user-container img {
+  width: 30px;
+  height: 30px;
+}
+.nav-flex p {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(238, 8, 78);
+}
+
+#header {
+  /* border: 1px solid greenyellow; */
+  width: 60%;
+  margin: 10px auto;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#header h1 {
+  color: rgb(238, 8, 78);
+}
+#header .main-left {
+  text-align: center;
+}
+#header .main-right img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+#header .main-right img:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+.card {
+  /* background-color: gray; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+.card:hover {
+  padding: 25px;
+}
+.subtitle {
+  color: rgb(238, 8, 78);
+  font-size: 17px;
+  font-weight: 900;
+}
+
+#about p {
+  width: 70%;
+}
+ul {
+  padding-left: 20px;
+}
+ul li::marker {
+  color: rgb(238, 8, 78);
+  padding-left: 10px;
+}
+
+.fade {
+  color: #7a7878;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover,
+a:active {
+  color: red;
+}
+.project a:link,
+.project a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(238, 8, 78);
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.project a:hover,
+.project a:active {
+  background-color: rgb(238, 8, 78);
+}
+
+.line{
+  border: 1px solid rgba(238, 8, 77, 0.13);
+  margin: 20px 0;
+}
